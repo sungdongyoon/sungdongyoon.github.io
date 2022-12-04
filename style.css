@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap");
+
+.hidden {
+  display: none;
+}
+
+body {
+  height: 90vh;
+  background: no-repeat center;
+  background-size: cover;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+#page-title {
+  text-align: center;
+  color: white;
+}
+
+#clock {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+
+#weather {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#login-form {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#input-text {
+  width: 100px;
+  background-color: black;
+  border: 0;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#login-button {
+  background-color: black;
+  border: 0;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 15px;
+}
+
+#greeting {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
+#todo-form {
+  text-align: center;
+}
+
+#todo-input {
+  width: 500px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 15px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 20px;
+}
+
+#todo-form-button {
+  background-color: black;
+  color: white;
+  height: 45px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+#todo-list {
+  padding-left: 500px;
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  width: 480px;
+}
+
+#todo-list button {
+  border: 0;
+  outline: 0;
+  background: none;
+}
